@@ -1,0 +1,38 @@
+form #Email, #Password, #Password2, #Currency, #referral{
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+form #Email::placeholder, #Password::placeholder{
+  background-color: rgb(234, 230, 230);
+}
+
+ #player::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  display: none;
+}
+
+* {
+-ms-overflow-style: none;
+}
+
+section .container #Tomukruworld h5::before{
+	background: #FAFF00;
+	content: "";
+	display: block;
+	width: 50%;
+	height: 1px;
+	margin: 20px auto;
+}
+
+/* *{
+  font-family: 'Inter', sans-serif;
+} */
+
+
+/* @media screen and (max-width: 995px) {
+  .games #player {
+    height: 205px;
+  }
+} */
